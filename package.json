@@ -36,7 +36,18 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.0",
+    "@types/chalk": "^2.2.0",
+    "@types/cheerio": "^0.22.9",
+    "@types/copy-webpack-plugin": "^4.4.2",
+    "@types/rev-hash": "^2.0.0",
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "copy-webpack-plugin": "^4.5.2",
+    "rev-hash": "^2.0.0",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "config": {
+    "ionic_webpack": "./config/webpack.config.js"
+  }
 }

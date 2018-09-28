@@ -1,5 +1,5 @@
 export interface IAppEnv {
-  ENV: 'dev' | 'prod';
-  BACKEND_URL: string;
+  ENV: 'dev' | 'production';
   API_URL: string;
+  BASE_HREF: string;
 }

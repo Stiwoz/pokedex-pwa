@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { IPlabAction } from '../interfaces';
-import { LocalStorageService } from 'ngx-webstorage';
 
 @Injectable()
 export class GlobalActions {
