@@ -1,0 +1,16 @@
+// /deep/ is needed bc the canvas is created by Three.js
+// and is not handled by angular's template engine
+// so it does not have encapsulation
+#canvas-wrapper /deep/ canvas {
+  display: block;
+}
+
+.loader {
+  transition: all 300ms ease;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  height: 5px;
+  background-color: var(--ion-color-primary);
+  z-index: 15;
+}

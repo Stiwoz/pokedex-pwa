@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ dexName }} Pokedex</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let pkmn of pokemonList" (click)="openPokemonDetail(pkmn)">{{pkmn.name}}</ion-item>
+  </ion-list>
+</ion-content>
